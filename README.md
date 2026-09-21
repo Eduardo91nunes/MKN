@@ -1,70 +1,193 @@
-# Getting Started with Create React App
+# 🌱 MKN Consultoria Ambiental
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-green)
+![React](https://img.shields.io/badge/React-19.1.0-61DAFB?logo=react)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript)
+![CSS3](https://img.shields.io/badge/CSS3-3C99DC?logo=css3)
 
-## Available Scripts
+Site institucional desenvolvido para a **MKN Consultoria Ambiental**, com o objetivo de apresentar a empresa, seus serviços e projetos, além de proporcionar aos visitantes uma forma simples e intuitiva de entrar em contato.
 
-In the project directory, you can run:
+## 🌿 Sobre o Projeto
 
-### `npm start`
+A MKN Consultoria Ambiental é uma empresa voltada para soluções e serviços na área ambiental.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O projeto foi desenvolvido com foco em uma interface **moderna, responsiva e intuitiva**, buscando transmitir os valores da empresa e facilitar o acesso às informações sobre seus serviços.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+O site apresenta informações institucionais, serviços oferecidos, projetos realizados e canais de contato.
 
-### `npm test`
+## ✨ Funcionalidades
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* 🏠 Página inicial
+* 🌱 Apresentação da empresa
+* 📋 Apresentação dos serviços
+* 📁 Seção de projetos
+* 📞 Página de contato
+* 📱 Layout responsivo
+* 🧭 Navegação entre páginas
+* 🎨 Identidade visual personalizada
+* 🖼️ Apresentação de imagens e conteúdos institucionais
+* ▶️ Apresentação de vídeo institucional
 
-### `npm run build`
+## 📄 Páginas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Página          | Descrição                                          |
+| --------------- | -------------------------------------------------- |
+| 🏠 **Home**     | Apresentação inicial da empresa                    |
+| 👥 **Sobre**    | Informações sobre a MKN e sua história             |
+| 🌱 **Serviços** | Apresentação dos serviços de consultoria ambiental |
+| 📁 **Projetos** | Exibição de projetos realizados                    |
+| 📞 **Contato**  | Informações e formas de contato                    |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Tecnologias Utilizadas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+O projeto foi desenvolvido utilizando:
 
-### `npm run eject`
+* **React.js**
+* **JavaScript**
+* **HTML5**
+* **CSS3**
+* **React Router DOM**
+* **Lucide React**
+* **React Icons**
+* **Create React App**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+As dependências utilizadas no projeto estão disponíveis no arquivo `package.json`.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📂 Estrutura do Projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```text
+MKN/
+├── public/
+│   ├── imagens/
+│   ├── videos/
+│   └── ...
+│
+├── src/
+│   ├── Components/
+│   ├── Pages/
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+│
+├── .gitignore
+├── package.json
+├── package-lock.json
+└── README.md
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🚀 Como Executar o Projeto
 
-## Learn More
+### Pré-requisitos
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Antes de executar o projeto, é necessário ter instalado:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* [Node.js](https://nodejs.org/)
+* npm
 
-### Code Splitting
+### 1. Clone o repositório
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+git clone https://github.com/Eduardo91nunes/MKN.git
+```
 
-### Analyzing the Bundle Size
+### 2. Entre na pasta do projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+cd MKN
+```
 
-### Making a Progressive Web App
+### 3. Instale as dependências
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm install
+```
 
-### Advanced Configuration
+### 4. Execute o projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+npm start
+```
 
-### Deployment
+Após iniciar, o projeto estará disponível em:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```text
+http://localhost:3000
+```
 
-### `npm run build` fails to minify
+O projeto utiliza o `react-scripts` para iniciar o ambiente de desenvolvimento e gerar a versão de produção.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📦 Build para Produção
+
+Para gerar a versão otimizada do projeto:
+
+```bash
+npm run build
+```
+
+Os arquivos de produção serão gerados na pasta:
+
+```text
+build/
+```
+
+O comando de build é disponibilizado pelo Create React App e prepara a aplicação para publicação.
+
+## 🌐 Deploy
+
+O projeto possui publicação configurada através do **GitHub Pages**.
+
+🔗 **Site:**
+https://eduardo91nunes.github.io/MKN/
+
+🔗 **Repositório:**
+https://github.com/Eduardo91nunes/MKN
+
+## 📱 Responsividade
+
+O site foi desenvolvido considerando diferentes dispositivos e tamanhos de tela, incluindo:
+
+* 💻 Desktop
+* 💻 Notebook
+* 📱 Smartphone
+* 📲 Tablet
+
+## 🎯 Objetivos do Projeto
+
+O projeto tem como principais objetivos:
+
+* Criar uma presença digital para a empresa;
+* Apresentar os serviços de consultoria ambiental;
+* Divulgar projetos e trabalhos realizados;
+* Facilitar o contato com potenciais clientes;
+* Proporcionar uma experiência de navegação simples e intuitiva;
+* Desenvolver uma interface moderna e responsiva.
+
+## 🔮 Melhorias Futuras
+
+Algumas funcionalidades podem ser implementadas futuramente:
+
+* [ ] Integração com WhatsApp
+* [ ] Formulário de contato funcional
+* [ ] Painel administrativo
+* [ ] Gerenciamento de projetos
+* [ ] Gerenciamento de imagens e conteúdos
+* [ ] Integração com banco de dados
+* [ ] Melhorias de SEO
+* [ ] Otimização de desempenho
+* [ ] Domínio personalizado
+
+## 👨‍💻 Desenvolvedor
+
+Desenvolvido por **Eduardo Nunes**.
+
+### 🔗 Links
+
+* **GitHub:** https://github.com/Eduardo91nunes
+* **Repositório:** https://github.com/Eduardo91nunes/MKN
+
+---
+
+<p align="center">
+  🌱 <strong>MKN Consultoria Ambiental</strong><br>
+  Soluções ambientais para um futuro mais sustentável.
+</p>

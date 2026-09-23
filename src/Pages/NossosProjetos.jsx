@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Leaf, Award, Calendar, Star, Quote } from 'lucide-react';
+import { Leaf, Award, Star, Quote } from 'lucide-react';
 import './NossosProjetos.css';
 
 const NossosProjetos = () => {

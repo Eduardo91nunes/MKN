@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Leaf, Heart, Target, Users, Award, Calendar, Play } from 'lucide-react';
+import { Leaf, Heart, Target, Users, Award, Calendar} from 'lucide-react';
 import './Sobre.css';
 
 const AboutPage = () => {
